@@ -2,7 +2,7 @@ import { LIQUIDITY_STATE_LAYOUT_V4, MAINNET_PROGRAM_ID, MARKET_STATE_LAYOUT_V3, 
 import bs58 from 'bs58';
 import { Connection, PublicKey } from '@solana/web3.js';
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
-import { EventEmitter } from 'events';
+import { EventEmitter } from 'events'; 
 
 export class Listeners extends EventEmitter {
   private subscriptions: number[] = [];
